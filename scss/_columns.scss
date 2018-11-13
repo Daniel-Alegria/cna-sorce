@@ -1,0 +1,18 @@
+.columns {
+  .columns-icons-item {
+    max-width: 20rem;
+    .columns-icons-icon {
+      height: 7rem;
+      i {
+        font-size: 4.5rem;
+      }
+    }
+    &:hover {
+      .columns-icons-icon {
+        i {
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+}

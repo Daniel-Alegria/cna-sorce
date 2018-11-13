@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// custom page styles
+section {
+  padding: 15px 0;
+}
+// home page
+#home {
+  // keep the footer on the bottom
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  main {
+    flex: 1;
+  }
+  // typography
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Nunito", sans-serif;
+  }
+  h3 {
+    font-size: 1.25rem !important;
+  }
+  ul {
+    font-size: 0.75rem !important;
+  }
+}
+
+#catalog {
+  background-color: $white;
+  color: $gray-900;
+  margin-top: 60px;
+  ul {
+    font-size: 0.75rem !important;
+  }
+  .card-header {
+    background-color: $gray-200;
+    color: $gray-900;
+  }
+  .card a {
+    color: #203243;
+    text-decoration: none !important;
+  }
+  tr {
+    cursor: pointer;
+  }
+}

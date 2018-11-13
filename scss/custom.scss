@@ -1,0 +1,23 @@
+// variables
+// ---------
+@import "variables.scss";
+// imports (They have to remain here under the variables)
+// -------
+@import "node_modules/bootstrap/scss/_functions.scss";
+@import "node_modules/bootstrap/scss/_variables.scss";
+@import "node_modules/bootstrap/scss/_mixins.scss";
+@import "node_modules/bootstrap/scss/_root.scss";
+@import "node_modules/bootstrap/scss/_buttons.scss";
+// custom css
+// ----------
+// global
+@import "global.scss";
+// components
+@import "navbar.scss";
+@import "alerts.scss";
+@import "custom-buttons.scss";
+@import "call-to-action.scss";
+@import "carousel.scss";
+@import "columns.scss";
+@import "content.scss";
+@import "footer.scss";

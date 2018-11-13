@@ -1,0 +1,31 @@
+// custom carousel
+@media (max-width: 801px) {
+  .carousel {
+    display: none !important;
+  }
+}
+.carousel {
+  margin-top: $navbar-custom-height;
+}
+.carousel-background {
+  background-image: $carousel-background;
+  height: $carousel-height;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -100px;
+}
+.carousel-item {
+  height: $carousel-height;
+}
+// custom jumbotron
+.jumbotron {
+  display: none !important;
+}
+@media (max-width: 801px) {
+  .jumbotron {
+    background-image: $jumbotron-background;
+    display: flex !important;
+    background-size: cover;
+    height: $jumbotron-height;
+  }
+}

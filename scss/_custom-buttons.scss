@@ -1,0 +1,130 @@
+// buttons
+
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+.cna-primary-button {
+  background: linear-gradient(to bottom, $light-red 0%, $red 100%);
+  background-color: $light-red;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 30px;
+  transition: all 200ms;
+  &:hover {
+    background: linear-gradient(to bottom, $red 0%, $light-red 100%);
+    background-color: $red;
+    text-decoration: none;
+    color: $gray-300;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+    text-decoration: none;
+  }
+}
+
+.cna-secondary-button {
+  background: linear-gradient(to bottom, $light-blue 0%, $blue 100%);
+  background-color: $light-blue;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 30px;
+  transition: all 200ms;
+  &:hover {
+    background: linear-gradient(to bottom, $blue 0%, $light-blue 100%);
+    background-color: $blue;
+    text-decoration: none;
+    color: $gray-300;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+    text-decoration: none;
+  }
+}
+
+.cna-gray-button {
+  background-color: $gray-500;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $gray-800;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 30px;
+  transition: all 200ms;
+  &:hover {
+    background-color: $gray-700;
+    text-decoration: none;
+    color: $white;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+    text-decoration: none;
+  }
+}
+
+.cna-outline-button {
+  background-color: $white;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $gray-700;
+  border: solid $gray-700 1px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 30px;
+  transition: all 200ms;
+  // margin-top: 100%;
+  &:hover {
+    color: $dark-blue;
+    border: solid $dark-blue 1px;
+    text-decoration: none;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+    text-decoration: none;
+  }
+}
+
+.cna-outline-reverse-button {
+  background-color: $gray-900;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $gray-500;
+  border: solid $gray-500 1px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 30px;
+  transition: all 200ms;
+  &:hover {
+    color: $white;
+    border: 1px solid $white;
+    text-decoration: none;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+    text-decoration: none;
+  }
+}
