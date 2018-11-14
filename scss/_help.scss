@@ -1,0 +1,24 @@
+#help {
+  background-color: $white;
+  color: $gray-900;
+  margin-top: 60px;
+  ul {
+    font-size: 0.75rem !important;
+  }
+  .card-header {
+    background-color: $gray-200;
+    color: $gray-900;
+  }
+  .card a {
+    color: #203243;
+    text-decoration: none !important;
+  }
+  tr {
+    cursor: pointer;
+  }
+  .footer-custom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}

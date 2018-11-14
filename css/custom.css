@@ -530,6 +530,8 @@ section {
     padding: 0; }
     .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
       color: #0a0c0d; }
+    .navbar-custom .navbar-brand img {
+      width: 150px; }
   .navbar-custom .navbar-nav .nav-link {
     color: #1a1a1a;
     transition: all ease 300ms; }
@@ -549,6 +551,8 @@ section {
       color: #1a1a1a; }
       .navbar-custom .nav-item a:hover {
         color: #010101; }
+  .navbar-custom .navbar-collapse {
+    background-color: #f8f9fa; }
   .navbar-custom .active {
     cursor: default !important;
     color: #010101 !important;
@@ -566,12 +570,6 @@ section {
       transform: scaleX(1) !important;
       visibility: visible !important;
       margin-bottom: 0 !important; }
-  .navbar-custom .navbar-toggler {
-    color: #010101;
-    border-color: rgba(56, 63, 169, 0.1); }
-
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#343a40' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 
 .navbar-custom .navbar-text {
   color: #010101; }
@@ -581,6 +579,8 @@ section {
       color: #010101; }
 
 @media (min-width: 801px) {
+  .navbar-brand img {
+    width: 250px !important; }
   .navbar-custom {
     background-color: #f8f9fa;
     padding-top: 0;
@@ -714,10 +714,6 @@ section {
   padding: 50px 15px 25px 15px !important;
   width: 100%; }
 
-@media (max-width: 801px) {
-  .carousel {
-    display: none !important; } }
-
 .carousel {
   margin-top: 67px; }
 
@@ -725,8 +721,8 @@ section {
   background-image: url("../images/banner.png");
   height: 400px;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: -100px; }
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .carousel-item {
   height: 400px; }
@@ -735,11 +731,14 @@ section {
   display: none !important; }
 
 @media (max-width: 801px) {
-  .jumbotron {
-    background-image: url("../images/banner.png");
-    display: flex !important;
+  .carousel {
+    font-size: 2vw; }
+  .carousel-background {
+    height: 400px;
+    background-color: black;
     background-size: cover;
-    height: 300px; } }
+    background-position: center;
+    resize: both; } }
 
 .columns .columns-icons-item {
   max-width: 20rem; }
@@ -844,3 +843,18 @@ footer .navbar-text {
     margin-bottom: 450px !important; }
   .footer-custom {
     height: 450px !important; } }
+
+#help {
+  background-color: #fff;
+  color: #1a1a1a;
+  margin-top: 60px; }
+  #help ul {
+    font-size: 0.75rem !important; }
+  #help .card-header {
+    background-color: #e9ecef;
+    color: #1a1a1a; }
+  #help .card a {
+    color: #203243;
+    text-decoration: none !important; }
+  #help tr {
+    cursor: pointer; }
