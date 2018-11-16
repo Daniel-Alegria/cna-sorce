@@ -2,15 +2,14 @@
 .carousel {
   margin-top: $navbar-custom-height;
 }
-.carousel-background {
-  background-image: $carousel-background;
-  height: $carousel-height;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .carousel-item {
   height: $carousel-height;
+  img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 100%;
+    width: 100%;
+  }
 }
 // custom jumbotron
 .jumbotron {
@@ -20,11 +19,13 @@
   .carousel {
     font-size: 2vw;
   }
-  .carousel-background {
-    height: 400px;
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-    resize: both;
+  .carousel-item {
+    height: $carousel-height;
+    img {
+      object-fit: cover;
+      object-position: 50% 50%;
+      height: auto;
+      width: auto;
+    }
   }
 }

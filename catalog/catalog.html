@@ -3,8 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <title>Course Library</title>
-    <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico' />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../images/favicon.ico"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
       rel="stylesheet"
@@ -20,11 +24,11 @@
   <body id="catalog">
     <header>
       <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-md fixed-top navbar-custom navbar-light">
+      <nav class="navbar navbar-expand-md fixed-top navbar-custom navbar-dark">
         <div class="container">
           <!-- Brand -->
-          <a class="navbar-brand" href="#">
-            <img src="../images/logo.png" alt="logo" />
+          <a class="navbar-brand">
+            <img src="../images/CNALogo.svg" alt="logo" />
           </a>
           <!-- Toggler -->
           <button
@@ -80,9 +84,9 @@
           >
         </div>
         <div class="p-2">
-          <button class="btn btn-primary" id="checkout">
+          <a class="cna-primary-button text-white" id="checkout">
             <i class="fa fa-shopping-cart"></i> | CHECKOUT
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -274,9 +278,9 @@
       </div>
       <div class="row">
         <div class="col text-right">
-          <button class="btn btn-primary" id="checkout">
+          <a class="cna-primary-button text-white" id="checkout">
             <i class="fa fa-shopping-cart"></i> | CHECKOUT
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -286,40 +290,62 @@
     <!-- FOOTER -->
 
     <div class="footer-custom">
-            <footer class="mt-md-4">
-    
-                <nav class="navbar navbar-expand-md">
-                    <div class="container">
-                        <a class="navbar-brand" href="https://www.clicksafety.com/"><img src="../images/CSLogoWhite.png" alt="ClickSafety Logo"
-                                width="150"></a>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a href="#" class="nav-link" title="Privacy Policy">Privacy Policy</a></li>
-                            <li class="v-divider"></li>
-                            <li class="nav-item"><a href="#" class="nav-link" title="Legal">Legal</a></li>
-                            <li class="v-divider"></li>
-                            <li class="nav-item"><a href="https://www.clicksafety.com/" class="nav-link" title="clicksafety">Clicksafety.com</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="copyright-statement row">
-                    <div class="container">
-                        <div class="col text-center">
-                            <p class="mb-0"><small>Copyright 2018 ClickSafety.com, Inc. All Rights Reserved</small></p>
-                            <small class="mt-0 text-muted">
-                                The information contained in this online training website is provided by ClickSafety. While
-                                every effort is made to keep the content up to date and accurate, CNA makes no
-                                representations or warranties about the information contained on the website.
-                                CNA
-                                shall not be responsible for losses or damages from the use of, or the availability or
-                                unavailability of this website.
-                            </small>
-                            <br>
-                            <br>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+      <footer class="mt-md-4">
+        <nav class="navbar navbar-expand-md">
+          <div class="container">
+            <a href="https://www.clicksafety.com/"
+              ><img
+                src="../images/CSLogoWhite.png"
+                alt="ClickSafety Logo"
+                width="150"
+            /></a>
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link" title="Privacy Policy"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="v-divider"></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" title="Legal">Legal</a>
+              </li>
+              <li class="v-divider"></li>
+              <li class="nav-item">
+                <a
+                  href="https://www.clicksafety.com/"
+                  class="nav-link"
+                  title="clicksafety"
+                  >Clicksafety.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="copyright-statement row">
+          <div class="container">
+            <div class="col text-center">
+              <p class="mb-0">
+                <small
+                  >Copyright 2018 ClickSafety.com, Inc. All Rights
+                  Reserved</small
+                >
+              </p>
+              <small class="mt-0 text-muted">
+                The information contained in this online training website is
+                provided by ClickSafety. While every effort is made to keep the
+                content up to date and accurate, CNA makes no representations or
+                warranties about the information contained on the website. CNA
+                shall not be responsible for losses or damages from the use of,
+                or the availability or unavailability of this website.
+              </small>
+              <br />
+              <br />
+            </div>
+          </div>
         </div>
+      </footer>
+    </div>
 
     <!-- scripts loaded here -->
 

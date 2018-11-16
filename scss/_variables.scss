@@ -9,7 +9,7 @@ $indigo: #6610f2;
 $purple: #6f42c1;
 $pink: #e83e8c;
 $red: #a7212a;
-$light-red: #CC0000;
+$light-red: #cc0000;
 $orange: #ff6600;
 $cs-orange: #ff5800;
 $yellow: #ffca10;
@@ -83,13 +83,13 @@ $alert-bg: $gray-200;
 $alert-color: $gray-900;
 $alert-border-color: $gray-900;
 // custom navbar styles
-$navbar-background-color: $gray-100;
-$navbar-custom-color: $gray-900;
+$navbar-background-color: $gray-800;
+$navbar-custom-color: $gray-100;
 $navbar-custom-hover-color: darken($navbar-custom-color, 10%);
 $navbar-custom-active-color: darken($navbar-custom-color, 10%);
 $navbar-custom-disabled-color: lighten($navbar-custom-color, 10%);
 $navbar-custom-toggler-border-color: rgba($blue, 0.1);
-$navbar-custom-height: 67px;
+$navbar-custom-height: 50px;
 // custom footer styles
 $footer-background-color: map-get($theme-colors, "dark");
 $footer-text-color: $white;
