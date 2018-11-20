@@ -2,6 +2,12 @@
 .carousel {
   margin-top: $navbar-custom-height;
 }
+
+.carousel-caption {
+  text-align: left;
+
+}
+
 .carousel-item {
   height: $carousel-height;
   img {

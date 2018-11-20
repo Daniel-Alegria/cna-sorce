@@ -14,9 +14,10 @@
       color: #0a0c0d;
     }
     img {
-      width: 350px;
+      width: 300px;
       position: absolute;
       top: 0;
+      object-fit: cover !important;
     }
   }
   .navbar-nav {
@@ -89,6 +90,11 @@
     }
   }
 }
+
+#navbar2 {
+  display: none;
+}
+
 @media (min-width: 1000px) {
   .navbar-brand {
     img {
@@ -99,5 +105,21 @@
     background-color: $navbar-background-color;
     padding-top: 0;
     padding-bottom: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  #navbar1 {
+    display: none;
+  }
+
+  #navbar2 {
+    display: flex;
+    background-color: #404242 !important;
+  }
+  .navbar-brand {
+    img {
+      width: 215px !important;
+    }
   }
 }

@@ -28,6 +28,32 @@
   }
 }
 
+.cna-primary-button-lg {
+  background: linear-gradient(to bottom, $light-red 0%, $red 100%);
+  background-color: $light-red;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 40px;
+  transition: all 200ms;
+  &:hover {
+    background: linear-gradient(to bottom, $red 0%, $light-red 100%);
+    background-color: $red;
+    text-decoration: none;
+    color: $gray-300;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+    text-decoration: none;
+  }
+}
+
 .cna-secondary-button {
   background: linear-gradient(to bottom, $light-blue 0%, $blue 100%);
   background-color: $light-blue;

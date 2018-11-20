@@ -503,6 +503,12 @@ section {
   #home ul {
     font-size: 0.75rem !important; }
 
+h2 {
+  font-size: 1.5rem; }
+
+a {
+  color: #2980b9; }
+
 #catalog {
   background-color: #fff;
   color: #1a1a1a;
@@ -531,9 +537,10 @@ section {
     .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
       color: #0a0c0d; }
     .navbar-custom .navbar-brand img {
-      width: 350px;
+      width: 300px;
       position: absolute;
-      top: 0; }
+      top: 0;
+      object-fit: cover !important; }
   .navbar-custom .navbar-nav .nav-link {
     color: #f8f9fa;
     transition: all ease 300ms; }
@@ -580,6 +587,9 @@ section {
     .navbar-custom .navbar-text a:hover, .navbar-custom .navbar-text a:focus {
       color: #dae0e5; }
 
+#navbar2 {
+  display: none; }
+
 @media (min-width: 1000px) {
   .navbar-brand img {
     width: 400px !important; }
@@ -587,6 +597,15 @@ section {
     background-color: #404242;
     padding-top: 0;
     padding-bottom: 0; } }
+
+@media (max-width: 900px) {
+  #navbar1 {
+    display: none; }
+  #navbar2 {
+    display: flex;
+    background-color: #404242 !important; }
+  .navbar-brand img {
+    width: 215px !important; } }
 
 .alert {
   background: #e9ecef;
@@ -618,6 +637,29 @@ section {
     text-decoration: none;
     color: #dee2e6; }
   .cna-primary-button:active {
+    position: relative;
+    top: 1px;
+    text-decoration: none; }
+
+.cna-primary-button-lg {
+  background: linear-gradient(to bottom, #cc0000 0%, #a7212a 100%);
+  background-color: #cc0000;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 40px;
+  transition: all 200ms; }
+  .cna-primary-button-lg:hover {
+    background: linear-gradient(to bottom, #a7212a 0%, #cc0000 100%);
+    background-color: #a7212a;
+    text-decoration: none;
+    color: #dee2e6; }
+  .cna-primary-button-lg:active {
     position: relative;
     top: 1px;
     text-decoration: none; }
@@ -718,6 +760,9 @@ section {
 
 .carousel {
   margin-top: 50px; }
+
+.carousel-caption {
+  text-align: left; }
 
 .carousel-item {
   height: 400px; }
@@ -842,10 +887,6 @@ footer .navbar-text {
 .footer-custom a {
   color: #ff5800 !important; }
 
-@media only screen and (max-width: 750px) {
-  body {
-    margin-bottom: 450px !important; } }
-
 #help {
   background-color: #fff;
   color: #1a1a1a;
@@ -860,7 +901,9 @@ footer .navbar-text {
     text-decoration: none !important; }
   #help tr {
     cursor: pointer; }
-  #help .footer-custom {
+
+@media only screen and (min-width: 750px) {
+  .footer-custom {
     position: absolute;
     bottom: 0;
-    width: 100%; }
+    width: 100%; } }
