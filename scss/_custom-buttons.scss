@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito");
 
 .cna-primary-button {
-  background: linear-gradient(to bottom, $light-red 0%, $red 100%);
+  // background: linear-gradient(to bottom, $light-red 0%, $red 100%);
   background-color: $light-red;
   display: inline-block;
   cursor: pointer;
@@ -16,7 +16,7 @@
   padding: 10px 30px;
   transition: all 200ms;
   &:hover {
-    background: linear-gradient(to bottom, $red 0%, $light-red 100%);
+    // background: linear-gradient(to bottom, $red 0%, $light-red 100%);
     background-color: $red;
     text-decoration: none;
     color: $gray-300;
@@ -29,7 +29,7 @@
 }
 
 .cna-primary-button-lg {
-  background: linear-gradient(to bottom, $light-red 0%, $red 100%);
+  // background: linear-gradient(to bottom, $light-red 0%, $red 100%);
   background-color: $light-red;
   display: inline-block;
   cursor: pointer;
@@ -42,7 +42,7 @@
   padding: 12px 40px;
   transition: all 200ms;
   &:hover {
-    background: linear-gradient(to bottom, $red 0%, $light-red 100%);
+    // background: linear-gradient(to bottom, $red 0%, $light-red 100%);
     background-color: $red;
     text-decoration: none;
     color: $gray-300;
@@ -55,7 +55,7 @@
 }
 
 .cna-secondary-button {
-  background: linear-gradient(to bottom, $light-blue 0%, $blue 100%);
+  // background: linear-gradient(to bottom, $light-blue 0%, $blue 100%);
   background-color: $light-blue;
   display: inline-block;
   cursor: pointer;
