@@ -352,8 +352,11 @@ a {
   .columns .columns-icons-item:hover .columns-icons-icon i {
     font-size: 5rem; }
 
+#columns {
+  background: url(../images/safetymessage.jpg); }
+
 #home #content {
-  background: url(../images/safetymessage.jpg);
+  background-color: #f6f6f6;
   color: #1a1a1a; }
 
 #home #safety-message {
@@ -382,10 +385,6 @@ a {
     opacity: 1 !important; }
 
 #home #content2 {
-  background: url(../images/safetymessage.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   color: #1a1a1a; }
 
 .v-divider {

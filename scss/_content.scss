@@ -1,6 +1,7 @@
 #home {
   #content {
-    background: url(../images/safetymessage.jpg);
+    // background: url(../images/safetymessage.jpg);
+    background-color: #f6f6f6;
     color: $content-color;
   }
   // safety message
@@ -35,10 +36,10 @@
     }
   }
   #content2 {
-    background: url(../images/safetymessage.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-color: #f6f6f6 !important;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
     color: $content2-color;
   }
 }
