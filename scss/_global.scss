@@ -60,3 +60,44 @@ a {
     cursor: pointer;
   }
 }
+
+@media all and (-ms-high-contrast: none) and (max-width: 599px), (-ms-high-contrast: active) and (max-width: 599px){
+  #home {
+    height: 1800px;
+  }   
+ }
+ 
+ @media all and (-ms-high-contrast: none) and (min-width: 600px), (-ms-high-contrast: active) and (min-width: 600px){
+   #home {
+     height: 2000px;
+   }   
+  }
+ 
+  @media all and (-ms-high-contrast: none) and (min-width: 700px), (-ms-high-contrast: active) and (min-width: 700px){
+   #home {
+     height: 1850px;
+   }   
+  }
+ 
+  @media all and (-ms-high-contrast: none) and (min-width: 800px), (-ms-high-contrast: active) and (min-width: 800px){
+   #home {
+     height: 1825px;
+   }   
+  }
+  @media all and (-ms-high-contrast: none) and (min-width: 900px), (-ms-high-contrast: active) and (min-width: 900px){
+   #home {
+     height: 1800px;
+   }   
+  }
+ 
+  @media all and (-ms-high-contrast: none) and (min-width: 1000px), (-ms-high-contrast: active) and (min-width: 1000px){
+   #home {
+     height: 1400px;
+   }   
+  }
+ 
+  @media all and (-ms-high-contrast: none) and (min-width: 1200px), (-ms-high-contrast: active) and (min-width: 1200px){
+   #home {
+     height: 1300px;
+   }   
+  }
